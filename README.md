@@ -1,7 +1,10 @@
 # Tarea Patrones de diseño
 Sebastian Rodriguez
+
 David Galeano
+
 Jose Luis Tovar
+
 Sistema de Generación de Informes Personalizados
 
 Integraciónde Biblioteca Incompatible
