@@ -3,16 +3,16 @@ package AppReportes;
 public class productoFabrica implements fabricaReportes {
     @Override
     public EXCEL reporteExcel() {
-        return null;
+        return new productoExcel();
     }
 
     @Override
     public HTML reporteHTML() {
-        return null;
+        return new productoHTML();
     }
 
     @Override
     public XML reporteXML() {
-        return null;
+        return new productoXML();
     }
 }

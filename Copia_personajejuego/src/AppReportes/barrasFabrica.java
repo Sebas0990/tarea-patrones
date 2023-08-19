@@ -3,16 +3,16 @@ package AppReportes;
 public class barrasFabrica implements fabricaReportes {
     @Override
     public EXCEL reporteExcel() {
-        return null;
+        return new barrasExcel();
     }
 
     @Override
     public HTML reporteHTML() {
-        return null;
+        return new barrasHTML();
     }
 
     @Override
     public XML reporteXML() {
-        return null;
+        return new barrasXML();
     }
 }
